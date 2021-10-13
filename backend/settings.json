@@ -1,0 +1,251 @@
+
+{
+  "editor.glyphMargin": true,
+  "editor.folding": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "beautify.config": "",
+  "editor.formatOnSave": true,
+  "beautify.language": {
+    "js": {
+      "type": [
+        "javascript",
+        "json",
+        "jsonc"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautifyrc"
+      ]
+    },
+    "css": [
+      "css",
+      "less",
+      "scss"
+    ],
+    "html": [
+      "htm",
+      "html"
+    ]
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "auto-close-tag.disableOnLanguage": [],
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "cSpell.userWords": [
+    "Gugudan",
+    "campanies"
+  ],
+  "editor.fontSize": 13,
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.lineHeight": 16,
+  "editor.wordWrap": "on",
+  "window.menuBarVisibility": "toggle",
+  "editor.cursorStyle": "block",
+  "editor.lineNumbers": "relative",
+  "search.showLineNumbers": true,
+  "zenMode.hideLineNumbers": false,
+  "workbench.activityBar.visible": false,
+  "files.exclude": {
+    "**/node_modules/**": false
+  },
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.toggleTerminalAndFocusTerminal",
+      "sequence": [
+        "workbench.action.toggleMaximizedPanel",
+        "workbench.action.terminal.focus",
+      ]
+    },
+    {
+      "command": "multiCommand.toggleTerminalAndFocusEditor",
+      "sequence": [
+        "workbench.action.toggleMaximizedPanel",
+        "workbench.action.focusActiveEditorGroup",
+      ]
+    }
+  ],
+  {
+    "key": "ctrl+`",
+    "command": "extension.multiCommand.execute",
+    "args": {
+      "command": "multiCommand.toggleTerminalAndFocusTerminal"
+    },
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "extension.multiCommand.execute",
+    "args": {
+      "command": "multiCommand.toggleTerminalAndFocusEditor"
+    },
+    "when": "terminalFocus"
+  },
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.easymotion": true,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": [
+    "##ecde0e",
+    "#000000"
+  ],
+  "vim.visualstar": true,
+  "vim.ignorecase": true,
+  "vim.leader": " ",
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.duration": 2000,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "1",
+        "1"
+      ],
+      "after": [
+        "1",
+        "g",
+        "t"
+      ]
+    },
+    {
+      "before": [
+        "2",
+        "2"
+      ],
+      "after": [
+        "2",
+        "g",
+        "t"
+      ]
+    },
+    {
+      "before": [
+        "3",
+        "3"
+      ],
+      "after": [
+        "3",
+        "g",
+        "t"
+      ]
+    },
+    {
+      "before": [
+        "4",
+        "4"
+      ],
+      "after": [
+        "4",
+        "g",
+        "t"
+      ]
+    },
+    {
+      "before": [
+        "5",
+        "5"
+      ],
+      "after": [
+        "5",
+        "g",
+        "t"
+      ]
+    },
+    {
+      "before": [
+        "6",
+        "6"
+      ],
+      "after": [
+        "6",
+        "g",
+        "t"
+      ]
+    },
+    {
+      "before": [
+        "7",
+        "7"
+      ],
+      "after": [
+        "7",
+        "g",
+        "t"
+      ]
+    },
+    {
+      "before": [
+        "8",
+        "8"
+      ],
+      "after": [
+        "8",
+        "g",
+        "t"
+      ]
+    },
+    {
+      "before": [
+        "0",
+        "0"
+      ],
+      "after": [
+        "<C-w>",
+        "w",
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "<C-c>"
+      ],
+      "commands": [
+        ":bd"
+      ]
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.fontFamily": "hack, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "workbench.iconTheme": "vscode-icons",
+  "debug.console.lineHeight": 16,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "terminal.integrated.fontSize": 12,
+  "workbench.panel.defaultLocation": "right",
+  "editor.formatOnSaveMode": "file",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.renderIndentGuides": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "##ecde0e",
+    "statusBar.noFolderBackground": "##ecde0e",
+    "statusBar.debuggingBackground": "##ecde0e",
+    "statusBar.foreground": "#000000"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "scssFormatter.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+}
